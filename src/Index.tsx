@@ -5,6 +5,7 @@ import './Dc.css';
 import nextStepImage from './assets/nextstep.png';
 import heliosImage from './assets/helios.png';
 import mockImage from './assets/mockmate.png';
+import SplineBackground from './SplineBackground';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,8 +37,9 @@ export default function App() {
     setIsMenuOpen(false);
   };
 
-  return (
+ return (
     <div className="app">
+      <SplineBackground />
       {/* Navigation Bar */}
       <nav className="navbar">
         <div className="nav-brand">Deepak</div>
