@@ -21,7 +21,7 @@ const CustomCursorTrail = () => {
       // Check if hovering over a button
       const isButtonHover = (e.target as HTMLElement).closest('button');
       circles.forEach((circle) => {
-        circle.style.backgroundColor = isButtonHover ? 'rgba(0, 0, 0, 1)' : 'rgba(255, 255, 255, 1)';
+        circle.style.backgroundColor = isButtonHover ? 'rgb(0, 0, 0)' : 'rgba(255, 255, 255, 1)';
 
       });
     };

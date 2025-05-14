@@ -39,7 +39,15 @@ export default function App() {
 
  return (
     <div className="app">
-      <SplineBackground />
+      <video
+  className="background-video"
+  src="/bg.mp4"
+  autoPlay
+  muted
+  loop
+  playsInline
+  preload="auto"
+></video>
       {/* Navigation Bar */}
       <nav className="navbar">
         <div className="nav-brand">Deepak</div>

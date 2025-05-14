@@ -7,7 +7,7 @@
 }
 ::selection {
   /*background-color: #000000;  Green background */
-  color: #9790e6; /* White text */
+  color: #f5da83; /* White text */
 }
 
 * {
@@ -35,7 +35,7 @@ body {
   width: 100%;
   padding: 1.5rem 0;
   background: transparent;
-  backdrop-filter: blur(5px);
+  /*backdrop-filter: blur(5px);*/
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -292,7 +292,7 @@ a:focus {
   left: 0;
   width: 100%;
   height: 2px;
-  background: #000000;
+  background: #dbdbdb;
   animation: underlineSlide 0.3s ease-out;
 }
 
@@ -408,14 +408,17 @@ a:focus {
   .project-image {
     height: 150px;
   }
+  .background-video {
+    display: none;
+  }
 }
-
-.spline-background {
+.background-video {
+  display: block;
+  object-fit: cover;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   z-index: -1;
-  overflow: hidden;
 }
