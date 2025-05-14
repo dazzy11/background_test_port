@@ -5,7 +5,6 @@ import './Dc.css';
 import nextStepImage from './assets/nextstep.png';
 import heliosImage from './assets/helios.png';
 import mockImage from './assets/mockmate.png';
-import SplineBackground from './SplineBackground';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
